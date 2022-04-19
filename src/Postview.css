@@ -1,0 +1,81 @@
+.site-container{
+  text-align: center;
+}
+html {
+  font-size: 14px;
+}
+body {
+
+  
+  line-height: 1.5;
+  color: black;
+  margin:0;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 70px;
+  border-bottom: 2px solid gray;
+}
+header .title{
+  display: flex;
+  align-items: center;
+}
+.title h1{
+  color: rgb(40, 104, 40);
+}
+.content{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 400px;
+  height: auto;
+  margin: 20px 0px;
+}
+.card .info{
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  text-align: justify;
+  margin: 0px 20px;
+  align-items: center;
+}
+span{
+  font-size: small;
+  font-weight: 100;
+  display: block;
+}
+.card .user-img{
+  height: 180px;
+  width: 100%;
+}
+.card .post-info{
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  text-align: justify;
+  margin-right: 10px;
+}
+.icons{
+  height: 20px;
+  margin: 5px 10px;
+}
+.post-info span{
+  margin-left: 10px;
+}
+
+.post-info .date{
+  vertical-align: top;
+}
+.description{
+  text-align: left;
+  padding:10px ;
+  font-weight:bold ;
+}

@@ -1,0 +1,26 @@
+.page{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 5px 5px 5px 0px black;
+    background: gainsboro;
+}
+.one-form{
+    padding: 20px;
+}
+.btn{
+    height: 30px;
+    padding: 5px;
+    background-color: royalblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 2px 2px 0px black;
+    float: right;
+    
+}
